@@ -32,7 +32,7 @@ function Content() {
     }
 
     const onClickExport = () => {
-        alert("Funciona")
+        alert("Download image?")
         html2canvas(document.querySelector("#capture")).then(canvas => {
             var img = canvas.toDataURL("image/png");
             var link = document.createElement("a");
